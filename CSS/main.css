@@ -9,15 +9,15 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
+.main-header {
     margin-top: 20px;
     display: inline-block;
-    width: 800px; 
+    width: 1000px; 
     margin-left: calc(50% - 400px); 
 }
 
 /*logo*/
-header > img {
+.logo {
     margin-top: 5px;
     width: 100px;
     height: 30px;
@@ -25,14 +25,12 @@ header > img {
 }
 
 /* nuorodos+user avatar */
-header > div {
+.main-header-right-side {
     float: right;
 }
 
-
-
-/* nuorodos */
-nav {
+/* nav */
+.main-meniu {
 float: left;
 margin-top: 10px;
 margin-right: 30px;
@@ -50,7 +48,7 @@ a:last-child {
     margin-right: 0px;
 }
 
-a:hover {
+.menu-link:hover {
 padding-bottom: 5px;
 color: red;
 border-bottom: 3px solid red;
@@ -74,15 +72,25 @@ main {
 
 
 main > section:nth-child(1){
+    padding: 30px;
     width: 100%;
     background-color: #36f;
     margin-bottom: 30px;
     box-sizing: border-box;
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
-    height: 580px;
+    height: 390px;
     background-size: cover;
+    background-position: center;
 }
+
+main > section:nth-child(1) > div {
+    
+    width: 30%;
+    margin-top: 180px;  
+}
+
+h1 {margin-bottom: 30px;}
 
 main > section:nth-child(2){
     width: 65%;
