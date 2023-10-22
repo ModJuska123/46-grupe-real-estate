@@ -15,33 +15,31 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body class="main-header">
-    <header class="main-header-right-side">
+<body class="main-body">
+    <header class="main-header">
         <img class="logo"; src="./img.png" alt="Logo">
-            <div> 
-                <nav class="main-meniu">
-                    <a class=".menu-link" href="#">Buy</a>
-                    <a class=".menu-link" href="#">Rent</a>
-                    <a class=".menu-link" href="#">Agent</a>
-                    <a class=".menu-link" href="#">About</a>
-                </nav>
-                <img src="./picture.png" alt="User avatar">
-            </div>
+        <div class="main-header-right"> 
+            <img class="avatar"; src="./picture.png" alt="User avatar">
+            <nav class="main-meniu">
+                <a class="menu-link" href="#">Buy</a>
+                <a class="menu-link" href="#">Rent</a>
+                <a class="menu-link" href="#">Agent</a>
+                <a class="menu-link" href="#">About</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="main">
 <!-- nuo cia Hero langas -->
-        <section>
-            <img src="#" alt="House;">
-          <div>
-            <h1>We help you find dream house.</h1>
+        <section class="hero">
+          <div class="hero-content">
+            <h1 class="main-tytle">We help you find dream house.</h1>
             <form>
                 <div> 
                     <button type="button">Buy</button>
                     <button type="button">Rent</button>
                 
                 </div>
-
                 <div>
                     <input type="text">
                     <button type="submit"></button>
@@ -51,44 +49,44 @@
         </section>
 
 <!-- Nuo cia kiti sections -->
-        <section> 
-            <div> <!--1 skyriaus virs blokas-->
-                <h2>Top neighbourhood</h2>
+        <section class="neighbourhood"> 
+            <div class="neighbourhood-top-block"> <!--1 skyriaus virs blokas-->
+                <h2 class="neighbourhood-h2">Top neighbourhood</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
 
-            <div> <!--1/1 pagrindinis blokas-->
-                <div>
+            <div class="neighbourhood-main"> <!--1/1 pagrindinis blokas-->
+                <div class="neighbourhood-left-block">
                     <img src="#" alt="House"> <!--nuotrauka-->
                     <div>$1662 / Sq. Ft.</div> <!--kaina-->
                     <div> <!--adraesas-->
                     <p>ICON - New Yourk, NY</p>
                     <p>Carroll Gardens</p></div>
                 </div>
-            </div>
+            
 
-            <div> <!--1/2 pagrindinis blokas-->
-                <div>
+           <!--1/2 pagrindinis blokas-->
+                <div class="neighbourhood-midle-block">
                     <img src="#" alt="House"> <!--nuotrauka-->
                     <div>$1662 / Sq. Ft.</div> <!--kaina-->
                     <div> <!--adraesas-->
                     <p>ICON - New Yourk, NY</p>
                     <p>Carroll Gardens</p></div>
                 </div>
+           
+           <!--1/3 pagrindinis blokas-->
+                <div class="neighbourhood-right-block">
+                    <img src="#" alt="House"> <!--nuotrauka-->
+                    <div>$1662 / Sq. Ft.</div> <!--kaina-->
+                    <div> <!--adraesas-->
+                    <p>ICON - New Yourk, NY</p>
+                    <p>Carroll Gardens</p></div>
+                </div>
+                <button>SEE ALL</button> <!--raudonas mygtukas--> 
             </div>
-
-            <div> <!--1/3 pagrindinis blokas-->
-                <div>
-                    <img src="#" alt="House"> <!--nuotrauka-->
-                    <div>$1662 / Sq. Ft.</div> <!--kaina-->
-                    <div> <!--adraesas-->
-                    <p>ICON - New Yourk, NY</p>
-                    <p>Carroll Gardens</p></div>
-                </div>
-            <button>SEE ALL</button> <!--raudonas mygtukas--> 
-            </div>     
+                
         </section>
-        <section> <!--2 skyrius-->
+        <section class="recomended"> <!--2 skyrius-->
             <div> <!--2 skyriaus virs blokas-->
                 <h1>Recomended for you</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>

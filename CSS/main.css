@@ -1,22 +1,22 @@
-body * {
+/* Standartinis viso CSS formatavimas [2-6e] */
+body * { 
     vertical-align: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.main-header {
+  
+/* Headerio formavimas nuo cia: */
+/* Headerio tevas */
+.main-body {
     margin-top: 20px;
     display: inline-block;
     width: 1000px; 
-    margin-left: calc(50% - 400px); 
+    margin-left: calc(50% - 500px);
 }
 
-/*logo*/
+/*Headerio logo*/
 .logo {
     margin-top: 5px;
     width: 100px;
@@ -24,19 +24,33 @@ body {
     float: left;
 }
 
-/* nuorodos+user avatar */
-.main-header-right-side {
-    float: right;
+/* Hederis: */
+main-header {
+display: inline-block;
+background-color: red;
+}
+/* header/div/avatar */
+.avatar {
+    float: right;  
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-/* nav */
+/* Heder/Div */
+.main-header-right {
+    float: right;}
+
+/* Headerio navas */
 .main-meniu {
 float: left;
 margin-top: 10px;
 margin-right: 30px;
 }
 
-a {
+/* Headerio/divo/navo/meniu linkai */
+.menu-link {
 font-size: 20px;
 line-height: 20px; 
 margin-right: 30px;
@@ -44,25 +58,19 @@ text-decoration: none;
 color: #333;
 }
 
-a:last-child {
+/* Headerio/divo/navo/meniu linko/last chaildas */
+.menu-link:last-child {
     margin-right: 0px;
 }
-
+/* !!! atsargiai su hoveriu, jis t.b. kaip atskira klase, kitaip nuolat veiks */
 .menu-link:hover {
 padding-bottom: 5px;
 color: red;
 border-bottom: 3px solid red;
 }
 
-/* user avatar */
-div > img {
-    float: right;  
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-main {
+/* Main formavimas nuo cia: */
+.main {
     display: inline-block;
     background-color: rgb(218, 218, 162);
     width: 1000px;
@@ -70,35 +78,77 @@ main {
     margin-left: calc(50% - 500px);
     }
 
-
-main > section:nth-child(1){
+/* Main / Hero skyrius */
+.hero {
     padding: 30px;
-    width: 100%;
+    width: 1000px;
     background-color: #36f;
     margin-bottom: 30px;
-    box-sizing: border-box;
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
-    height: 390px;
+    min-height: 280px;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
-main > section:nth-child(1) > div {
-    
+/* Main / Hero skyrius */
+.hero-content {
     width: 30%;
     margin-top: 180px;  
 }
 
-h1 {margin-bottom: 30px;}
+/* Main / Hero skyrius/h1 taitlas */
+.main-tytle {
+    margin-bottom: 30px;}
 
-main > section:nth-child(2){
+/* Main / 2 skyrius */
+.neighbourhood {
     width: 65%;
     background-color: aqua;
     float: left;
     box-sizing: border-box;}
+/* neighbourhood/tytle */
+.neighbourhood-top-block {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+}
 
-main > section:nth-child(3){
+.neighbourhood-h2 {
+    margin-bottom: 10px;
+}
+
+.neighbourhood-main{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+
+.neighbourhood-left-block{
+    float: left;
+    background-image: url(../img/img.png);
+}
+
+.neighbourhood-midle-block{
+    float: left;
+    background-image: url(../img/img.png);
+}
+
+.neighbourhood-right-block{
+    float: left;
+    background-image: url(../img/img.png);
+}
+
+
+
+
+
+
+
+
+
+/* Main / 3 skyrius */
+.recomended {
     width: calc(35% - 30px);
     background-color: tomato;
     float: right;
