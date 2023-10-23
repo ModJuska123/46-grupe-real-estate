@@ -123,37 +123,29 @@ border-bottom: 3px solid red;
 /* -----neighbourhood-main---- */
 .neighbourhood-main {
     display: inline-block;
-    background-color: purple;
+    background-color: yellow;
 }
 
 .neighbourhood-left-block{
-    background-color: yellow;
     background-repeat: no-repeat;
     height: 170px;
     width: 190px;
     background-size: cover;
     background-position: center;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20px;
     float: left;
     background-image: url(../img/1.png);
     border-radius: 20px;
 }
 
-.price-block-first {
-    /* float: right;
-    background-color: darkblue;
-    opacity: 0.5;
-    color: white; */
-
 .neighbourhood-midle-block{
-    background-color: yellow;
     background-repeat: no-repeat;
     height: 170px;
     width: 190px;
     background-size: cover;
     background-position: center;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20px;
     float: left;
     background-image: url(../img/2.png);
@@ -161,13 +153,12 @@ border-bottom: 3px solid red;
 }
 
 .neighbourhood-right-block{
-    background-color: yellow;
     background-repeat: no-repeat;
     height: 100px;
     width: 190px;
     background-size: contain;
     background-position: center;
-    margin-left: 1px;
+    margin-left: 10px;
     margin-top: 20px;
     float: left;
     background-image: url(../img/strangeHouse.png);
@@ -188,9 +179,27 @@ border-bottom: 3px solid red;
     color: white;
 }
 
+.price-block {
+    background-color: blue;
+    opacity: 0.3;
+    color: white;
+    float: right;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* .adress {
+    background-color: blue;
+    opacity: 0.3;
+    color: white;
+    float: left;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 20px; */
 
 /* 3 skyrius */
 .recomended {
+    float: right;
     width: calc(35% - 26px);
     background-color: tomato;
-    float: right;}
+    }
