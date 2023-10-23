@@ -52,7 +52,7 @@ margin-right: 30px;
 /* Headerio/divo/navo/meniu linkai */
 .menu-link {
 font-size: 20px;
-line-height: 20px; 
+hight: 20px; 
 margin-right: 30px;
 text-decoration: none;
 color: #333;
@@ -101,12 +101,13 @@ border-bottom: 3px solid red;
 .main-tytle {
     margin-bottom: 30px;}
 
-/* Main / 2 skyrius */
-.neighbourhood {
+/* --------Main / 2 skyrius------- */
+.neighbourhood-section{
     width: 65%;
     background-color: aqua;
-    float: left;
-    box-sizing: border-box;}
+    display: inline-block;
+}
+
 /* neighbourhood/tytle */
 .neighbourhood-top-block {
     width: 100%;
@@ -118,46 +119,59 @@ border-bottom: 3px solid red;
     margin-bottom: 10px;
 }
 
-.neighbourhood-main{
-    width: 100%;
-    padding: 15px;
+/* -----neighbourhood-main---- */
+.neighbourhood-main {
+    /* padding: 15px; */
+    display: inline-block;
+    background-color: purple
+    
 }
 
 .neighbourhood-left-block{
-    float: left;
     background-color: yellow;
-    background-image: url(../img/1.png);
     background-repeat: no-repeat;
-    min-height: 200px;
-    min-width: 200px;
+    height: 170px;
+    width: 190px;
     background-size: cover;
-    background-position: right;
+    background-position: center;
+    float: left;
 }
 
 .neighbourhood-midle-block{
-    float: left;
     background-color: yellow;
-    background-image: url(../img/2.png);
     background-repeat: no-repeat;
-    min-height: 200px;
-    min-width: 200px;
-    background-size: cover;
-    background-position: right;
+    height: 170px;
+    width: 190px;
+    background-size: contain;
+    background-position: center;
     margin-left: 10px;
+    float: left;
 }
 
 .neighbourhood-right-block{
-    float: left;
     background-color: yellow;
-    background-image: url(../img/3.png);
     background-repeat: no-repeat;
-    min-height: 200px;
-    min-width: 200px;
-    background-size: cover;
-    background-position: left;
+    height: 170px;
+    width: 190px;
+    background-size: contain;
+    background-position: center;
     margin-left: 10px;
+    float: left;
 }
 
+.red_button{
+    display: inline-block;
+    background-color: #FF9376;
+    width: 90px;
+    height: 26px;
+    margin-left: 14px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 26px;
+    text-decoration: none;
+    color: white;
+}
 
 
 
