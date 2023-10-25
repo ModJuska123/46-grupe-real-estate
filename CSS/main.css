@@ -72,51 +72,49 @@ border-bottom: 3px solid red;
 /* Main formavimas nuo cia: */
 .main {
     display: inline-block;
-    background-color: rgb(218, 218, 162);
     width: 1000px;
     margin-top: 20px;
     margin-left: calc(50% - 500px);
-    }
+}
 
 /* Main / Hero skyrius */
 .hero {
     padding: 30px;
     width: 1000px;
     background-color: #36f;
-    margin-bottom: 30px;
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
     min-height: 280px;
     background-size: cover;
     background-position: left;
+    margin-bottom: 40px;
 }
 
 /* Main / Hero skyrius */
 .hero-content {
     width: 30%;
-    margin-top: 180px;  
+    margin-top: 0px;  
 }
 
 /* Main / Hero skyrius/h1 taitlas */
 .main-tytle {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 /* -------2 skyrius------- */
 .neighbourhood {
-    width: 65%;
-    background-color: aqua;
+    width: 60%;
     display: inline-block;
 }
 
 .neighbourhood-top-block {
     width: 100%;
-    padding: 0px;
+    margin-bottom: 20px;
     display: inline-block;
 }
 
 .neighbourhood-h2 {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .neighbourhood-listing {
@@ -128,7 +126,6 @@ border-bottom: 3px solid red;
     width: calc((100% - 2 * 30px) / 3);
     margin-right: 4.5%;
     float: left;
-    margin-bottom: 20px;
     background-color: pink;
     position: relative;
     border-radius: 30px;
@@ -166,7 +163,13 @@ border-bottom: 3px solid red;
     border-radius: 15px;
 }
 
-.red_button{
+.neighbourhood-listing .item-details .location {
+    font-size: 10px;
+    color: blue;
+}
+
+
+/* .red_button{
     display: inline-block;
     background-color: #FF9376;
     width: 90px;
@@ -178,11 +181,50 @@ border-bottom: 3px solid red;
     line-height: 26px;
     text-decoration: none;
     color: white;
-}
+} */
 
 /* 3 skyrius  */
 .recomended {
-    float: right;
-    width: calc(35% - 26px);
-    background-color: tomato;
-    }
+float: right;
+width: calc(40% - 30px);
+}
+
+.recomended-listing {
+    width: 100%;
+}
+.recomended-listing .listing-item {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.recomended-listing .item-image {
+    width: 25%;
+    float: left;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.recomended-listing .item-details {
+    float: left;
+    width: calc(75% - 40px);
+}
+.recomended-listing .item-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+.recomended-listing .location-street {
+    font-size: 18px;
+}
+.recomended-listing .location-city {
+    font-size: 16px;
+}
+.recomended-listing .image-features {
+    font-size: 14px;
+}
+.recomended-listing .features {
+    font-size: 12px;
+    float: left;}
