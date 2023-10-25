@@ -12,8 +12,117 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-    HEADER: logo + nav + user
+
+<body class="main-body">
+    <header class="main-header">
+        <img class="logo"; src="./img.png" alt="Logo">
+        <div class="main-header-right"> 
+            <img class="avatar"; src="./picture.png" alt="User avatar">
+            <nav class="main-meniu">
+                <a class="menu-link" href="#">Buy</a>
+                <a class="menu-link" href="#">Rent</a>
+                <a class="menu-link" href="#">Agent</a>
+                <a class="menu-link" href="#">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+<!-- nuo cia Hero langas -->
+        <section class="hero">
+          <div class="hero-content">
+            <h1 class="main-tytle">We help you find dream house.</h1>
+            <form>
+                <div> 
+                    <button type="button">Buy</button>
+                    <button type="button">Rent</button>
+                
+                </div>
+                <div>
+                    <input type="text">
+                    <button type="submit"></button>
+                </div>
+            </form>
+          </div>
+        </section>
+
+<!-- Nuo cia 2 section -->
+        <section class="neighbourhood"> 
+            <div class="neighbourhood-top-block"> <!--1 skyriaus virs blokas-->
+                <h2 class="neighbourhood-h2">Top neighbourhood</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            
+            <div class="neighbourhood-listing">
+                <!--2/1 pagrindinis blokas-->
+                <div class="listing-item">
+                    <img class="item-image"; src="./img/1.png"; alt="House">
+                    <div class="item-size">$1662 / Sq. Ft.</div> <!--kaina-->
+                    <div class="item-details"> <!--adraesas-->
+                    <p class="location">ICON - New Yourk, NY</p>
+                    <p class="name">Carroll Gardens</p></div>
+                </div>
+            
+
+           <!--2/2 pagrindinis blokas-->
+                <div class="listing-item">
+                    <img class="item-image"; src="./img/2.png"; alt="House">
+                    <div class="item-size">$1662 / Sq. Ft.</div> <!--kaina-->
+                    <div class="item-details"> <!--adraesas-->
+                    <p class="location">ICON - New Yourk, NY</p>
+                    <p class="name">Carroll Gardens</p>
+                    </div>
+                </div>
+           
+         <!--2/3 pagrindinis blokas-->
+                 <div class="listing-item last-item"> 
+                    <img class="item-image"; src="./img/strangeHouse.png"; alt="House">
+                    <div class="item-size">$1662 / Sq. Ft.</div> <!--kaina-->
+                    <div class="item-details"> <!--adraesas-->
+                    <p class="location">ICON - New Yourk, NY</p>
+                    <p class="name">Carroll Gardens</p></div>
+                </div>
+            </div>
+            <a class="red_button">SEE ALL</a> <!--raudonas mygtukas--> 
+            </div>     
+        </section>
+        
+<!-- Recomended -->
+        <section class="recomended";>
+            <div>
+                <h1>Recomended for you</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            
+            <div>
+                <img src="#" alt="House">
+                <p> $798,500</p>
+                <p> 121 East 38th Street</p>
+                <p> Manhattan, NY 10016</p>
+                <div> 
+                    <div>IMAGE->Bath</div>  
+                    <div>IMAGE->Beds</div> 
+                    <div>IMAGE->500 sqft</div>
+                </div>
+                <img src="#" alt="Bookmark"> 
+            </div>
+            </div>
+            <div>       
+                <img src="#" alt="House">
+                <p> $798,500</p>
+                <p> 121 East 38th Street</p>
+                <p> Manhattan, NY 10016</p>
+                <div> <!--2/2 bloko paskutine eil-->
+                    <div>IMAGE->Bath</div>  
+                    <div>IMAGE->Beds</div> 
+                    <div>IMAGE->500 sqft</div>
+                </div>
+                <img src="#" alt="Bookmark">
+            </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
