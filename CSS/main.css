@@ -238,12 +238,21 @@ width: calc(40% - 30px);
     font-size: 12px;
    }
 
+.recomended-listing .features > .fa {
+    margin-right: 5px;
+
+}
+
 .recomended-listing .bookmark {
     width: 20px;
     height: 30px;
     position: absolute;
-    top: 0px;
+    top: -4px;
     right: 20px;
     font-size: 35px;
     color: cornflowerblue;
+}
+
+.recomended-listing .bookmark .fa-bookmark {
+    sisplay: none;
 }
