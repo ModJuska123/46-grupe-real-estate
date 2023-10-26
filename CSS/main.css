@@ -254,5 +254,5 @@ width: calc(40% - 30px);
 }
 
 .recomended-listing .bookmark .fa-bookmark {
-    sisplay: none;
+    display: none;
 }
