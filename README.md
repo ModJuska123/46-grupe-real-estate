@@ -10,7 +10,7 @@ _Website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/ModJuska123/46-grupe-real-estate.git 
+Site published at: https://github.com/ModJuska123.github.io/46-grupe-real-estate 
 
 Design: [Real-setate](https://dribbble.com/shots/10172325/attachments/2114690?mode=media)
 
