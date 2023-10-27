@@ -9,7 +9,7 @@ body * {
   
 /* Headerio formavimas nuo cia: */
 /* Headerio tevas */
-.main-body {
+.header {
     margin-top: 20px;
     display: inline-block;
     width: 1000px; 
