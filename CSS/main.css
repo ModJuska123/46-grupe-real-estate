@@ -94,7 +94,6 @@ border-bottom: 3px solid red;
     margin-top: 0px;  
 }
 
-/* Main / Hero skyrius/h1 taitlas */
 .main-tytle {
     margin-bottom: 0px;
 }
@@ -155,7 +154,6 @@ border-bottom: 3px solid red;
     color: hwb(0 0% 100% / 0.412);
     font-size: 15px;
     font-style: normal;
-    
 }
 
 .form .search-btn {
@@ -202,7 +200,6 @@ border-bottom: 3px solid red;
     width: calc((100% - 2 * 30px) / 3);
     margin-right: 4.5%;
     float: left;
-    background-color: pink;
     position: relative;
     border-radius: 30px;
     overflow: hidden;
