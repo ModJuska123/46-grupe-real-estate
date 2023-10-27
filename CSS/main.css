@@ -134,9 +134,9 @@ border-bottom: 3px solid red;
 .form .search {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
-    width: 100%;
-    padding: 10px;
+    gap: 3px;
+    width: 118%;
+    padding: 5px;
     background-color: #fff;
 }
 .form .label {
@@ -145,16 +145,17 @@ border-bottom: 3px solid red;
 
 .form .input {
     width: 0;
-    padding: 15px 20px;
+    padding: 10px 20px;
     font-size: 20px;
     flex-grow: 1;
     border: none;
 }
 
 ::placeholder {
-    color: red;
+    color: hwb(0 0% 100% / 0.412);
     font-size: 15px;
-    font-style: italic;
+    font-style: normal;
+    
 }
 
 .form .search-btn {
