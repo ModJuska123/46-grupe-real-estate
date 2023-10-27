@@ -77,7 +77,6 @@ border-bottom: 3px solid red;
     margin-left: calc(50% - 500px);
 }
 
-/* Main / Hero skyrius */
 .hero {
     padding: 30px;
     width: 1000px;
@@ -90,7 +89,6 @@ border-bottom: 3px solid red;
     margin-bottom: 40px;
 }
 
-/* Main / Hero skyrius */
 .hero-content {
     width: 30%;
     margin-top: 0px;  
@@ -110,6 +108,7 @@ border-bottom: 3px solid red;
     display: flex;
     gap: 10px;
     padding: 10px;
+    width:fit-content;
     border-radius: 8px;
     background-color: #fff;
 }
@@ -124,13 +123,12 @@ border-bottom: 3px solid red;
 }
 
 .form .filter-btn:hover {
-    box-shadow: 0 2px 8px #8080ff;
-    color: #fff;
+    box-shadow: 0px 3px 10px 0px #8080ff;
     cursor: pointer;
 }
-.form .filter-btn.active {
-    background-color: 0px 2px 8px #8080ff;
-    color: #fff;
+.form .filter-btn:hover.active {
+    background-color: #fff;
+    color: #8080ff;
 }
 
 .form .search {
@@ -163,14 +161,21 @@ border-bottom: 3px solid red;
     display: inline-block;
     padding: 10px 20px;
     line-height: 20px;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
-    text-transform: capitalize;
     background-color: #FF9376;
     color: #fff;
-    border-radius: 8px;
     border: 1px solid #FF9376;
-    box-shadow: 0 4px 8px rgba(255, 147, 118, 0.27);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 2px rgba(255, 147, 118, 0.27);
+}
+
+.form .search-btn:hover {
+    cursor: pointer;
+}
+.form .search-btn:hover.active {
+    color: #FF9376;
+    background-color: #fff;
 }
 
 .neighbourhood {
