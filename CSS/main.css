@@ -60,7 +60,7 @@ color: #333;
 
 /* Headerio/divo/navo/meniu linko/last chaildas */
 .menu-link:last-child {
-    margin-right: 0px;
+margin-right: 0px;
 }
 /* !!! atsargiai su hoveriu, jis t.b. kaip atskira klase, kitaip nuolat veiks */
 .menu-link:hover {
@@ -338,7 +338,7 @@ width: calc(40% - 30px);
     cursor: pointer;
 }
 
-.recomended-listing .bookmark > .fa-bookmark,
+/* .recomended-listing .bookmark > .fa-bookmark,
 .recomended-listing .bookmark:hover > .fa-bookmark-o,
 .recomended-listing .bookmark.active > .fa-bookmark-o,
 .recomended-listing .bookmark.active:hover > .fa-bookmark {
@@ -350,4 +350,4 @@ width: calc(40% - 30px);
 .recomended-listing .bookmark.active > .fa-bookmark,
 .recomended-listing .bookmark.active:hover > .fa-bookmark-o {
     display: block;
-}
+} */
