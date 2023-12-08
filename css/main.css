@@ -125,6 +125,7 @@ border-bottom: 3px solid red;
     box-shadow: 0px 3px 10px 0px #8080ff;
     cursor: pointer;
 }
+
 .form .filter-btn:hover.active {
     background-color: #fff;
     color: #8080ff;
@@ -338,16 +339,14 @@ width: calc(40% - 30px);
     cursor: pointer;
 }
 
-/* .recomended-listing .bookmark > .fa-bookmark,
-.recomended-listing .bookmark:hover > .fa-bookmark-o,
-.recomended-listing .bookmark.active > .fa-bookmark-o,
-.recomended-listing .bookmark.active:hover > .fa-bookmark {
+.recommended-listing .bookmark > .fa-bookmark,
+.recommended-listing .bookmark:hover > .fa-bookmark-o,
+.recommended-listing .bookmark.active > .fa-bookmark-o,
+.recommended-listing .bookmark.active:hover > .fa-bookmark {
     display: none;
 }
-
-
-.recomended-listing .bookmark:hover > .fa-bookmark,
-.recomended-listing .bookmark.active > .fa-bookmark,
-.recomended-listing .bookmark.active:hover > .fa-bookmark-o {
+.recommended-listing .bookmark:hover > .fa-bookmark,
+.recommended-listing .bookmark.active > .fa-bookmark,
+.recommended-listing .bookmark.active:hover > .fa-bookmark-o {
     display: block;
-} */
+}
