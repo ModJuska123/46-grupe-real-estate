@@ -12,8 +12,8 @@ body * {
 .header {
     margin-top: 20px;
     display: inline-block;
-    width: 1000px; 
-    margin-left: calc(50% - 500px);
+    width: 1200px; 
+    margin: 20px calc(50% - 600px) 0;
 }
 
 /*Headerio logo*/
