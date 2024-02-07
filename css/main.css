@@ -339,14 +339,14 @@ width: calc(40% - 30px);
     cursor: pointer;
 }
 
-.recommended-listing .bookmark > .fa-bookmark,
-.recommended-listing .bookmark:hover > .fa-bookmark-o,
-.recommended-listing .bookmark.active > .fa-bookmark-o,
-.recommended-listing .bookmark.active:hover > .fa-bookmark {
+.recomended-listing .bookmark > .fa-bookmark,
+.recomended-listing .bookmark:hover > .fa-bookmark-o,
+.recomended-listing .bookmark.active > .fa-bookmark-o,
+.recomended-listing .bookmark.active:hover > .fa-bookmark {
     display: none;
 }
-.recommended-listing .bookmark:hover > .fa-bookmark,
-.recommended-listing .bookmark.active > .fa-bookmark,
-.recommended-listing .bookmark.active:hover > .fa-bookmark-o {
+.recomended-listing .bookmark:hover > .fa-bookmark,
+.recomended-listing .bookmark.active > .fa-bookmark,
+.recomended-listing .bookmark.active:hover > .fa-bookmark-o {
     display: block;
 }
