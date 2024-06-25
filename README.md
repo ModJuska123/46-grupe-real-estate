@@ -72,4 +72,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## 🎎 Other resources
 
-No other resouces.
+No other resources.
